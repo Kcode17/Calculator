@@ -10,7 +10,10 @@ class MyTestCase(unittest.TestCase):
         self.assertIsInstance(self.calculator, Calculator)
 
     def test_addition(self):
-        self.assertEqual(self.calculator.add(5, 5), 10)
+        self.assertEqual(self.calculator.add(5, 5), 10.0)
+
+    def test_subtraction(self):
+        self.assertEqual(self.calculator.subtract(5, 5), 0.0)
 
 
 if __name__ == '__main__':
