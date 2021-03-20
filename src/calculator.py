@@ -25,3 +25,7 @@ class Calculator:
     def divide(self, a, b):
         self.result = division(a, b)
         return self.result
+
+    def square(self, a):
+        self.result = multiplication(a, a)
+        return self.result
