@@ -18,6 +18,9 @@ class MyTestCase(unittest.TestCase):
     def test_multiplication(self):
         self.assertEqual(self.calculator.multiply(5, 5), 25.0)
 
+    def test_division(self):
+        self.assertEqual(self.calculator.divide(5, 5), 1.0)
+
 
 if __name__ == '__main__':
     unittest.main()
