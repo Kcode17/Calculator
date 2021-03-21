@@ -1,8 +1,8 @@
-from addition import addition
-from subtraction import subtraction
-from multiplication import multiplication
-from division import division
-from squareroot import squareroot
+from Addition import addition
+from Subtraction import subtraction
+from Multiplication import multiplication
+from Division import division
+from Squareroot import squareroot
 
 
 class Calculator:
