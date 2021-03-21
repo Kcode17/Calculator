@@ -1,5 +1,2 @@
-import math
-
-
 def squareroot(a):
-    return math.sqrt(a)
+    return round(float(pow(int(a), 0.5)), 8)
