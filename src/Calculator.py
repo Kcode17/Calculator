@@ -1,9 +1,9 @@
+# Static Methods imported from respective files
 from Addition import addition
 from Subtraction import subtraction
 from Multiplication import multiplication
 from Division import division
 from Squareroot import squareroot
-from CsvReader import CsvReader
 
 
 class Calculator:
@@ -12,6 +12,7 @@ class Calculator:
     def __init__(self):
         pass
 
+# Functions
     def add(self, a, b):
         self.result = addition(a, b)
         return self.result
@@ -35,11 +36,3 @@ class Calculator:
     def squareroot(self, a):
         self.result = squareroot(a)
         return self.result
-
-
-class CSVStats(Calculator):
-    data = []
-
-    def __init__(self, data_file):
-        self.data = CsvReader(data_file)
-        pass
