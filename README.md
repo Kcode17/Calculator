@@ -1,7 +1,7 @@
 # Calculator (Individual Project)
 
 ## Description
-### Python Application: Calculator should support Addition, Subtraction, Multiplication, Division, Sqaure and Sqaure root.
+### Python Application: Calculator should support Addition, Subtraction, Multiplication, Division, Square and Square root.
 ### Unit Tests for each function using test data from csv files.
 
 ## Tools 
