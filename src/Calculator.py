@@ -3,6 +3,7 @@ from Subtraction import subtraction
 from Multiplication import multiplication
 from Division import division
 from Squareroot import squareroot
+from CsvReader import CsvReader
 
 
 class Calculator:
@@ -35,3 +36,10 @@ class Calculator:
         self.result = squareroot(a)
         return self.result
 
+
+class CSVStats(Calculator):
+    data = []
+
+    def __init__(self, data_file):
+        self.data = CsvReader(data_file)
+        pass
