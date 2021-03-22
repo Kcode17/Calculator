@@ -14,4 +14,4 @@
 #### Sri Siva Krishna Teja Oguri
 
 ## Changelog
-- [Project changelog](/changelog.md)
+#### [Project changelog](/changelog.md)
