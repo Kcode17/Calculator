@@ -1,17 +1,17 @@
 # Calculator (Individual Project)
 
 ## Description
-### Python Application: Calculator should support Addition, Subtraction, Multiplication, Division, Square and Square root.
-### Unit Tests for each function using test data from csv files.
+#### Python Application: Calculator should support Addition, Subtraction, Multiplication, Division, Square and Square root.
+#### Unit Tests for each function using test data from csv files.
 
 ## Tools 
-### Git, PyCharm, Python, Docker
+#### Git, PyCharm, Python, Docker
 
 ## Development Approach
-### Test Driven Development
+#### Test Driven Development
 
 ## Project by
-### Sri Siva Krishna Teja Oguri
+#### Sri Siva Krishna Teja Oguri
 
 ## Changelog
 - [Project changelog](/changelog.md)
